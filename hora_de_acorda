@@ -1,0 +1,26 @@
+algoritmo "Hora_de_Acorda"
+
+sono: logico
+
+inicio
+    // Verifica se está na hora de Acorda
+    escreva("Está com sono? (sim/nao): ")
+    leia(sono)
+
+    // Se está com sono, inicia o processo de dormir
+    se (sono = "não") entao
+        escreva("Abrir os olhos")
+        escreva("Levantar da cama")
+        escreva("Acender as luzes")
+        escreva("Ir para o banheiro")
+        escreva("Escovar os dentes")
+        escreva("Tirar o pijama")
+        escreva("Toma banho")
+        escreva("Troca de roupa")
+        escreva("Arrumar a cama")
+        escreva("Toma cafe da manhã")
+        escreva("Bom dia!")
+    senao
+        escreva("Ainda está na hora de dormir.")
+    fimse
+fimalgoritmo
